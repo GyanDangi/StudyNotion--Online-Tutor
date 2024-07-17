@@ -15,7 +15,7 @@ function App() {
 
   return (
 
-      <div className="App w-screen  bg-richblack-900 flex flex-col text-white select-none">
+      <div className="App w-screen h-100%  bg-richblack-900 flex flex-col text-white select-none">
         <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}>
           
         </Navbar>
